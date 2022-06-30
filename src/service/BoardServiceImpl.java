@@ -25,7 +25,7 @@ public class BoardServiceImpl implements BoardService {
 			); // 업로드 시간 기록
 			dao.writeAttach(attach); // 첨부 파일 작성
 		}
-		return bno;  
+		return bno;   
 	}
 
 	@Override
